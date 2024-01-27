@@ -1,11 +1,12 @@
-import placeholderimg from '../assets/images/placeholder-image.png';
+import homepageHeadshot from '../assets/images/homepage-headshot.jpg';
 
 export default function HomePage() {
   return (
     <div>
-      <img className="homePageImg" src={placeholderimg} alt="Placeholder Image"/>
+      <img className="homePageImg" src={homepageHeadshot} alt="Placeholder Image"/>
+      <p id="quote">dare to live in the <br/>unknown</p>
       <div className="d-flex justify-content-center" id="">
-        <div className="d-flex justify-content-evenly" id="homebtn-wrapper">
+        <div className="d-flex justify-content-between" id="homebtn-wrapper">
           <button className="homebtns">Check me out!</button>
           <button className="homebtns">Let's get in touch!</button>
         </div>
