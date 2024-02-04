@@ -9,12 +9,23 @@ export default function Nav({ links }) {
     setHamburgerOpen(!hamburgerOpen)
   };
 
-  let navStyle = {
-    background: '#234133b3',
-    padding: '5px',
-    borderRadius: '5px',
-    display: hamburgerOpen ? 'inline': 'none'
-  };  
+  let navStyle;
+
+  if(hamburgerOpen) {
+    navStyle = {
+      background: '#234133b3',
+      padding: '5px',
+      borderRadius: '5px',
+      display: 'flex',
+      flexDirection: 'column'
+    }
+  } else {
+    navStyle = {
+      background: '#234133b3',
+      padding: '5px',
+      borderRadius: '5px',
+    }
+  }
 
   return (
     <nav>
