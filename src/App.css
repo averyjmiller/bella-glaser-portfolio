@@ -27,11 +27,11 @@ nav header {
   font-size: 100%;
 }
 
-/* #nav-pages {
+#nav-pages {
   background: #234133b3;
   padding: 5px;
   border-radius: 5px;
-} */
+}
 
 #nav-pages * {
   color: white;

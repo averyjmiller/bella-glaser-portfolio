@@ -1,31 +1,32 @@
 import Hamburger from './Hamburger';
-import { useState } from 'react';
+// import { useState } from 'react';
+import hamburgerHandler from '../../js/hamburger';
 
 export default function Nav({ links }) {
 
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  // const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
-  const toggleHamburger = () => {
-    setHamburgerOpen(!hamburgerOpen)
-  };
+  // const toggleHamburger = () => {
+  //   setHamburgerOpen(!hamburgerOpen)
+  // };
 
-  let navStyle;
+  // let navStyle;
 
-  if(hamburgerOpen) {
-    navStyle = {
-      background: '#234133b3',
-      padding: '5px',
-      borderRadius: '5px',
-      display: 'flex',
-      flexDirection: 'column'
-    }
-  } else {
-    navStyle = {
-      background: '#234133b3',
-      padding: '5px',
-      borderRadius: '5px',
-    }
-  }
+  // if(hamburgerOpen) {
+  //   navStyle = {
+  //     background: '#234133b3',
+  //     padding: '5px',
+  //     borderRadius: '5px',
+  //     display: 'flex',
+  //     flexDirection: 'column'
+  //   }
+  // } else {
+  //   navStyle = {
+  //     background: '#234133b3',
+  //     padding: '5px',
+  //     borderRadius: '5px',
+  //   }
+  // }
 
   return (
     <nav>
@@ -40,11 +41,11 @@ export default function Nav({ links }) {
         </a>
       </header>
       <div id="nav-items">
-        <div id="nav-pages" style={navStyle}>
+        <div id="nav-pages">
           {links.map((link) => link)}
         </div>
       </div>
-      <div className="hamburger" onClick={toggleHamburger}>
+      <div className="hamburger" onClick={hamburgerHandler}>
         <Hamburger />
       </div>
     </nav>
