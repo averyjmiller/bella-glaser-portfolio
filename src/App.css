@@ -95,13 +95,33 @@ nav header {
 
 @media (max-width: 767px) {
   .hamburger {
-    display: flex;
+    /* display: flex; */
     padding-top: 10px;
     margin-left: 10px;
     z-index: 10;
   }
 
+  nav {
+    padding: 0px;
+    align-items: flex-start;
+    z-index: 10;
+  }
+
   #nav-items {
-    display: none;
+    /* display: none; */
+    width: 50%;
+  }
+
+  #nav-pages {
+    background: white;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #nav-pages * {
+    color: black;
+    text-shadow: none;
   }
 }
