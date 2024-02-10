@@ -94,6 +94,10 @@ nav header {
 }
 
 @media (max-width: 767px) {
+  #quote {
+    display: none;
+  }
+  
   .hamburger {
     display: flex;
     padding-top: 10px;
