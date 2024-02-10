@@ -95,9 +95,9 @@ nav header {
 
 @media (max-width: 767px) {
   .hamburger {
-    /* display: flex; */
+    display: flex;
     padding-top: 10px;
-    margin-left: 10px;
+    margin-right: 10px;
     z-index: 10;
   }
 
@@ -109,7 +109,43 @@ nav header {
 
   #nav-items {
     /* display: none; */
+    position: absolute;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
     width: 50%;
+  }
+
+  .slide-in {
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+}
+    
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}
+    
+@keyframes slide-out {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+    0% { -webkit-transform: translateX(0%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
+
+  #nav-pages:hover #slide {
+    transition: 2s;
+    left: -100;
   }
 
   #nav-pages {

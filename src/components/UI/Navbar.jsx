@@ -40,7 +40,7 @@ export default function Nav({ links }) {
           </div>
         </a>
       </header>
-      <div id="nav-items">
+      <div className="slide-out" id="nav-items">
         <div id="nav-pages">
           {links.map((link) => link)}
         </div>

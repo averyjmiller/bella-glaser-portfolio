@@ -1,7 +1,10 @@
 const hamburgerHandler = async (e) => {
   e.preventDefault();
 
-  console.log('HAMBURGER HAS BEEN HIT');
+  let slider = document.getElementById('nav-items');
+  let isOpen = slider.classList.contains('slide-in');
+
+  slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
 }
 
 export default hamburgerHandler;
