@@ -41,7 +41,7 @@ export default function Nav({ links }) {
         </a>
       </header>
       <div className="slide-out" id="nav-items">
-        <div id="nav-pages">
+        <div id="nav-pages" onClick={hamburgerHandler}>
           {links.map((link) => link)}
         </div>
       </div>
