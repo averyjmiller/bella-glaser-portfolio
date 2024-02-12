@@ -10,43 +10,43 @@ nav {
 nav header {
   padding-left: 15px;
   color: white;
-  text-shadow: 3px 2px 10px black;
+  text-shadow: 3px 2px 20px black;
 }
 
 #nav-header {
   color: unset;
   text-decoration: unset;
+  font-weight: bolder;
 }
 
 #name {
-  font-size: 175%;
-  font-weight: bolder;
+  font-size: 200%;
 }
 
 #profession {
   font-style: italic;
-  font-size: 100%;
-  font-weight: bolder;
 }
 
 #nav-pages {
-  padding: 5px;
+  padding: 5px 0px;
   border-radius: 5px;
+  background-color: #658576;
+  border-bottom: 3px solid #546b60;
+
 }
 
 #nav-pages * {
   color: white;
-  background-color: #65857670;
   font-weight: bolder;
-  text-shadow: 3px 2px 10px black;
+  /* text-shadow: 3px 2px 10px black; */
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 6px 10px 7px 10px;
   /* margin: 0 20px; */
-  border-bottom: 3px solid #658576;
 }
 
 #nav-pages *:hover {
-  background-color: #658576;
+  background-color: #546b60;
+  border-radius: 5px;
   /* transition: 2s; */
 }
 
@@ -68,15 +68,17 @@ nav header {
 
 /* To Do: create a media quary that hides the quote once the screen size gets smaller */
 #quote {
+  /* display: none; */
   text-align: center;
-  font-size: 300%;
+  font-size: 400%;
   font-weight: bolder;
-  color: #658576;
-  text-shadow: 2px 1px 2px black;
+  /* background-color: #546b60; */
+  color: white;
+  text-shadow: 3px 2px 20px black;
   position: absolute;
   top: 50%;
   padding: 0 6%;
-  border-radius: 0 30px 30px 0;
+  /* border-radius: 0 30px 30px 0; */
 }
 
 #homebtn-wrapper {
