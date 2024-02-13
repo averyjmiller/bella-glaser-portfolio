@@ -103,6 +103,12 @@ nav header {
   box-shadow: none;
 }
 
+@media (min-width: 2560px) {
+  #quote {
+    font-size: 500%;
+  }
+}
+
 @media (max-width: 1215px) {
   #quote {
     font-size: 300%;
