@@ -1,33 +1,7 @@
 import Hamburger from './Hamburger';
-// import { useState } from 'react';
 import hamburgerHandler from '../../js/hamburger';
 
 export default function Nav({ links }) {
-
-  // const [hamburgerOpen, setHamburgerOpen] = useState(false);
-
-  // const toggleHamburger = () => {
-  //   setHamburgerOpen(!hamburgerOpen)
-  // };
-
-  // let navStyle;
-
-  // if(hamburgerOpen) {
-  //   navStyle = {
-  //     background: '#234133b3',
-  //     padding: '5px',
-  //     borderRadius: '5px',
-  //     display: 'flex',
-  //     flexDirection: 'column'
-  //   }
-  // } else {
-  //   navStyle = {
-  //     background: '#234133b3',
-  //     padding: '5px',
-  //     borderRadius: '5px',
-  //   }
-  // }
-
   return (
     <nav>
       <header>
