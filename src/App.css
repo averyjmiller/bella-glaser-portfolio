@@ -1,5 +1,5 @@
 * {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -7,7 +7,7 @@ nav {
   padding: 20px 50px;
   width: 100%;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   position: absolute;
 }
 
@@ -20,11 +20,12 @@ nav header {
 #nav-header {
   color: unset;
   text-decoration: unset;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 #name {
   font-size: 200%;
+  font-weight: 500;
 }
 
 #profession {
@@ -35,16 +36,14 @@ nav header {
   padding: 5px 0px;
   border-radius: 5px;
   background-color: #658576;
-  border-bottom: 3px solid #546b60;
-
 }
 
 #nav-pages * {
   color: white;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   /* text-shadow: 3px 2px 10px black; */
   text-decoration: none;
-  padding: 6px 10px 7px 10px;
+  padding: 5px 10px 6px 10px;
   /* margin: 0 20px; */
 }
 
@@ -74,19 +73,20 @@ nav header {
 #quote {
   /* display: none; */
   text-align: center;
-  font-size: 400%;
-  font-weight: bolder;
+  font-size: 300%;
+  font-weight: 500;
   /* background-color: #546b60; */
   color: white;
   text-shadow: 3px 2px 20px black;
   position: absolute;
-  top: 40%;
+  top: 50%;
   padding: 0 6%;
   /* border-radius: 0 30px 30px 0; */
 }
 
 #homebtn-wrapper {
-  width: 500px;
+  width: 75%;
+  max-width: 600px;
   padding: 100px 0;
 }
 
@@ -107,26 +107,15 @@ nav header {
   box-shadow: none;
 }
 
-@media (min-width: 2560px) {
-  #quote {
-    font-size: 500%;
-  }
-}
-
-@media (max-width: 1215px) {
-  #quote {
-    font-size: 300%;
-  }
-}
-
 @media (max-width: 767px) {
   #quote {
-    display: none;
+    /* display: none; */
+    font-size: 250%;
   }
 
   .hamburger {
     display: flex;
-    padding-top: 35px;
+    padding-top: 30px;
     margin-right: 10px;
     z-index: 10;
   }
@@ -142,8 +131,8 @@ nav header {
   }
 
   nav header {
-    padding-top: 25px;
     z-index: 2;
+    padding-top: 20px;
   }
 
   #nav-items {
@@ -195,6 +184,7 @@ nav header {
     justify-content: center;
     height: 100vh;
     padding: 5px;
+    font-size: 150%;
   }
 
   #nav-pages * {
@@ -205,7 +195,7 @@ nav header {
   }
 }
 
-@media (max-width: 396px) {
+@media (max-width: 524px) {
   #homebtn-wrapper {
     justify-content: center!important;
   }
