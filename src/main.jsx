@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import HeadshotsPage from './pages/HeadshotsPage';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <AboutPage />
+      },
+      {
+        path: 'headshots',
+        element: <HeadshotsPage />
       },
     ]
   }
