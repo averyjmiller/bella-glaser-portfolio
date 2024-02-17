@@ -1,11 +1,15 @@
+import { useLocation } from 'react-router-dom';
 import Hamburger from './Hamburger';
 import hamburgerHandler from '../../js/hamburger';
 
 export default function Nav({ links }) {
+  const location = useLocation();
+  const { pathname } = location;
+
   return (
     <nav>
       <header>
-        <a href="./" id="nav-header">
+        <a href="./" className={pathname == "/" ? 'nav-white' : 'nav-black'} id="nav-header">
           <div id="name">
             Bella Marie Andrews
           </div>
