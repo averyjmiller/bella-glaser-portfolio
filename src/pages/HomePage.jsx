@@ -1,4 +1,5 @@
 import homepageHeadshot from '../assets/images/homepage-headshot.jpg';
+import './HomePage.css';
 
 export default function HomePage() {
   return (
