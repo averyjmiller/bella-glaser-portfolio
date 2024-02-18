@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 export default function Hamburger() {
   return(
     <div>
-      <div className="hamburger">
+      <div id="hamburger-icon">
         <div id="open">
           <FontAwesomeIcon icon={faBars} />
         </div>
