@@ -10,10 +10,10 @@ export default function Nav({ links }) {
     <nav>
       <header onClick={hamburgerHandler}>
         <Link to='./' className={pathname == "/" ? 'nav-white' : 'nav-black'} id="nav-header">
-          <div id="name">
+          <div id="nav-name">
             Bella Marie Andrews
           </div>
-          <div id="profession">
+          <div id="nav-title">
             Actor/Artist
           </div>
         </Link>

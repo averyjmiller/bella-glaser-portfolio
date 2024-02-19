@@ -19,7 +19,7 @@ const hamburgerHandler = async (e) => {
     open.setAttribute('style', 'display: inline');
     close.setAttribute('style', 'display: none');
     navHeader.classList.remove('nav-open');
-  } else if(e.target .id != 'name' && e.target .id != 'profession') {
+  } else if(e.target .id != 'nav-name' && e.target .id != 'nav-title') {
     body.setAttribute('style', 'overflow: hidden');
     slider.setAttribute('style','display: block');
     slider.setAttribute('class', 'slide-in');

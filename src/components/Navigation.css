@@ -32,12 +32,12 @@ nav {
   text-shadow: unset!important;
 }
 
-#name {
+#nav-name {
   font-size: 200%;
   font-weight: 500;
 }
 
-#profession {
+#nav-title {
   font-style: italic;
 }
 
