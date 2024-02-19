@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import HeadshotsPage from './pages/HeadshotsPage';
+import ContactPage from './pages/ContactPage';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: 'headshots',
         element: <HeadshotsPage />
+      },
+      {
+        path: 'contact',
+        element: <ContactPage />
       },
     ]
   }
