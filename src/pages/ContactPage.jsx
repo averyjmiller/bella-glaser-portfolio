@@ -26,13 +26,22 @@ export default function ContactPage() {
 
   if (state.succeeded) {
     return (
-      <div className='container'>
-        <div className='row d-flex section-name'>
-          <h1 className='text-center text-secondary'>
-            Message sent! I'll get back to you as soon as I can.
-          </h1>
+      <div className='container' id="contact-wrapper">
+      <div className='row'>
+        <div className='col-12 col-md-6'>
+          <img src={Headshot} alt='bellamarieandrews' id="headshot" />
+        </div>
+        <div className='col-12 col-md-6' id="contact-form">
+          <div className='container'>
+            <div className='row d-flex section-name'>
+              <h1>Thanks for messaging me!</h1>
+              <div id="line-break"></div>
+              <p>I'll get back to you as soon as I can.</p>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
     );
   }
   return (
