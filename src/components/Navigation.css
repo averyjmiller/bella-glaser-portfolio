@@ -5,6 +5,7 @@ nav {
   justify-content: space-between;
   align-items: baseline;
   position: absolute;
+  z-index: 2;
 }
 
 #nav-header {
