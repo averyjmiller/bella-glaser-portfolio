@@ -43,7 +43,7 @@ nav {
 
 #nav-pages {
   padding: 5px 0px;
-  border-radius: 5px;
+  border-radius: 1rem;
   background-color: #658576;
 }
 
@@ -53,9 +53,14 @@ nav {
   padding: 5px 10px 6px 10px;
 }
 
+.selected-nav {
+  background-color: #546b60;
+  border-radius: 1rem;
+}
+
 #nav-pages *:hover {
   background-color: #546b60;
-  border-radius: 5px;
+  border-radius: 1rem;
 }
 
 #hamburger-wrapper {
