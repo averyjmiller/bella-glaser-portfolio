@@ -47,6 +47,8 @@ export default function ContactPage() {
   return (
     <div className='container' id="contact-wrapper">
       <div className='row'>
+        <div className="col-12">
+        </div>
         <div className='col-12 col-md-6'>
           <img src={Headshot} alt='bellamarieandrews' id="headshot" />
         </div>
