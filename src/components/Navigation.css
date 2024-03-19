@@ -145,6 +145,10 @@ nav {
     left: -100;
   }
 
+  #nav-name {
+    font-size: 150%;
+  }
+
   #nav-pages {
     background: #658576;
     border-radius: 0;
