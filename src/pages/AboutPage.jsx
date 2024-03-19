@@ -16,11 +16,11 @@ export default function AboutPage() {
             <br/>
             Los Angeles local hire.
             <br/>
-            Graduating from California Institute of the Arts with a BFA in Acting 
+            Graduating from California Institute of the Arts with a BFA in Acting. 
             <br />
             Actor, Singer, Rollerskater, Painter, Daydreamer :) 
             <br/>
-            I’ve been told I’m too stubborn for my own good, but I believe my stubbornness and ambition for a greater tomorrow is my reason why I am still here 
+            I’ve been told I’m too stubborn for my own good, but I believe my stubbornness and ambition for a greater tomorrow is my reason why I am still here.
             <br/>
             <span id="catch">Everyday is a new reason to play and explore the unknown!</span>
           </p>
