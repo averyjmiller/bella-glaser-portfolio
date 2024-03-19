@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.jsx'
 
-import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import HomePage from './pages/HomePage';
@@ -13,6 +12,9 @@ import ReelPage from './pages/ReelPage.jsx';
 import ResumePage from './pages/ResumePage.jsx';
 import HeadshotsPage from './pages/HeadshotsPage';
 import ContactPage from './pages/ContactPage';
+
+import './index.css'
+
 
 const router = createBrowserRouter([
   {
