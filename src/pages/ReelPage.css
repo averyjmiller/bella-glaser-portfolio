@@ -1,11 +1,10 @@
 #reel-wrapper {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 1000px;
+  padding-top: 250px;
+  padding-bottom: 5%;
+  /* max-width: 100px; */
 }
 
 #reel {
   width: 100%;
+  max-width: 700px;
 }
