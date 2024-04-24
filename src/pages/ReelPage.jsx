@@ -17,9 +17,14 @@ export default function ReelPage() {
           </video>
         </div>
         <div className="col-12 text-center py-4">
-          <video poster={thumbnail2} controls id="reel">
-            <source src={reel2} type="video/mp4" />
-          </video>
+          <iframe id="reel" 
+            src="https://www.youtube.com/embed/4z5y0Li3tZw?si=WBUjblKdqxgJCnJT" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </div>
