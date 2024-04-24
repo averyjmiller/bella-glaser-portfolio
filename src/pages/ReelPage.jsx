@@ -1,7 +1,5 @@
 import reel from '../assets/bellamarieandrews.mp4';
-import reel2 from '../assets/Bella-and-E.E.-Dream-Scene.mp4';
 import thumbnail1 from '../assets/images/bellamarieandrews-thumbnail.png';
-import thumbnail2 from '../assets/images/bellamarieandrews-thumbnail2.png';
 import './ReelPage.css';
 
 export default function ReelPage() {
